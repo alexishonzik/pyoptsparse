@@ -560,8 +560,6 @@ def update_2d_scatter(dvar, func, axisscale, type, n):
     return fig
 
 
-
-
 @app.callback(dash.dependencies.Output("dvar-child", "options"), [dash.dependencies.Input("dvar", "value")])
 def update_dvar_child(dvar):
     strlist = []
